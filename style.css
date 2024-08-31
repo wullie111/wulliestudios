@@ -1,0 +1,87 @@
+body{
+	background-color:#36393e;
+	font-family: 'inconsolata';
+	color: white;
+}
+
+h1 {
+	font-family: 'inconsolata';
+	text-align: center;
+}
+p {
+  font-family: 'inconsolata';
+
+}
+
+p1 {
+  	text-align: center;
+	font-family: 'inconsolata';
+	font-size: 10px;
+	
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+ 	 background-color: #202225;
+}
+
+li {
+	font-family: 'inconsolata';
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+li a {
+	font-family: 'inconsolata';
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #5865f2;
+}
+
+/* custom tags for lists */
+ul1{ 
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px
+}
+
+li1{
+  font-family: 'inconsolata';
+  display: list-item;
+}
+
+ul2{ 
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px
+  font-family: 'inconsolata';
+  text-align: center;
+
+}
+
+li2{
+  font-family: 'inconsolata';
+  text-align: center;
+  display: list-item;
+}
